@@ -1,0 +1,17 @@
+function loadAnimations()
+{
+    addByPrefix('idle', 'idle', 24, false);
+    addByPrefix('singUP', 'up', 24);
+    addByPrefix('singRIGHT', 'right', 24);
+    addByPrefix('singDOWN', 'down', 24);
+    addByPrefix('singLEFT', 'left', 24);
+
+    addOffset('idle', 0, 0);
+    addOffset('singUP', 33, 0);
+    addOffset('singDOWN', -10, 0);
+    addOffset('singLEFT', 1, 2);
+    addOffset('singRIGHT', 2, 0);
+
+    playAnim('idle');
+    setBarColor([255,250,215]);
+}

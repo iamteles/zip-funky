@@ -1,0 +1,9 @@
+function loadAnimations()
+{
+    addByPrefix('idle', 'funky', 24, false);
+
+    addOffset('idle', 0, 0);
+
+    playAnim('idle');
+    setBarColor([175,102,206]);
+}
